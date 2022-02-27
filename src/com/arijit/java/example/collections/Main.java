@@ -6,5 +6,9 @@ public class Main {
 	// write your code here
         //tester class for collection
         System.out.println("Hello All");
+
+        QueueExample qe=new QueueExample();
+        qe.priorityQueueOperation();
+
     }
 }
