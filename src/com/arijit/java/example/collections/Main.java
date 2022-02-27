@@ -8,7 +8,8 @@ public class Main {
         System.out.println("Hello All");
 
         QueueExample qe=new QueueExample();
-        qe.priorityQueueOperation();
+       // qe.priorityQueueOperation();
+        qe.LinkedListExample();
 
     }
 }
