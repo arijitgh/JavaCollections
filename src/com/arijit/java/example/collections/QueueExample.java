@@ -59,5 +59,15 @@ public class QueueExample {
 
         // Printing the top element again
         System.out.println(qe.peek());
+
+        Iterator itr = qe.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next() + "");
+        }
+
+        for(Object obj: qe){
+            String element=(String)obj;
+            System.out.println(element + "");
+        }
     }
 }
